@@ -9,3 +9,4 @@ def test_getUser():
     assert response.status_code == 200
     print('Hussain')
     print('Shiza')
+    print('Ahmad')
