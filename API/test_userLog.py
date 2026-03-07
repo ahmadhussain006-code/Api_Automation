@@ -1,6 +1,6 @@
 import requests
 
-def test_getUser():
+def test_userLog():
 
     response = requests.get("https://jsonplaceholder.typicode.com/users/1")
 
