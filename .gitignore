@@ -3,13 +3,15 @@ reports/
 allure-results/
 allure-report/
 htmlcov/
+
+# Ignore web files
 *.html
-output/
+*.css
+*.js
 
 # Ignore Python cache
 __pycache__/
 *.pyc
-*.pyo
 .pytest_cache/
 
 # Ignore virtual environment
